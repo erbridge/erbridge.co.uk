@@ -9,12 +9,18 @@
 <p>I’m F :wave:</p>
 
 <p>
-  I’m an anarchist, agender, trans, queer, autistic, disabled, vegan, tattooed,
-  magnetic technologist. I used to make games. Now I work to improve public
-  services.
+  I’m an anarchist, agender, trans, queer, autistic, mentally ill, disabled,
+  vegan, tattooed, magnetic technologist.
 </p>
 
-<p>This is a sort of portfolio of things I’ve worked on.</p>
+<p>
+  I work at <a rel="external" href="https://www.dxw.com/">dxw</a>, making public
+  services better. I advocate for open development, inclusive culture, and
+  better, fairer processes. I used to make games and before that I tried (and
+  failed) to understand the fundamental structure of spacetime.
+</p>
+
+<p>This is a portfolio of sorts of things I’ve worked on over the years.</p>
 
 <p>
   If you’re looking for my rambling, try the
