@@ -1,16 +1,38 @@
 <script lang="ts">
   import { Head } from "@erbridge/website-theme";
+  import { quadIn } from "svelte/easing";
 
   export let title: string;
   export let description: string;
+
+  let innerWidth: number;
+  let innerHeight: number;
+  let scrollY: number;
+
+  let section: HTMLElement;
+
+  let headerOpacity = 1;
+
+  $: if (innerWidth && innerHeight && section) {
+    const sectionTop = section.offsetTop;
+
+    headerOpacity = quadIn(
+      Math.max(
+        Math.min(1 - (scrollY - sectionTop) / (innerHeight - sectionTop), 1),
+        0
+      )
+    );
+  }
 </script>
+
+<svelte:window bind:innerWidth bind:innerHeight bind:scrollY />
 
 <Head title={title.toLowerCase()} type="article" {description}>
   <meta property="og:article:author" content="F" />
 </Head>
 
 <article>
-  <header>
+  <header style="opacity: {headerOpacity};">
     <div>
       <h1>{title}</h1>
 
@@ -18,7 +40,7 @@
     </div>
   </header>
 
-  <section>
+  <section bind:this={section}>
     <slot />
   </section>
 </article>
@@ -28,6 +50,7 @@
     max-width: 30rem;
     margin-left: auto;
     text-align: right;
+    will-change: opacity;
   }
 
   header :global(p) {
