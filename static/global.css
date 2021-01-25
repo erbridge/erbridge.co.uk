@@ -1,15 +1,15 @@
 :root {
-  --background-colour: 43, 48, 59;
-  --text-colour: 201, 211, 233;
-  --accent-colour: 0, 255, 221;
-  --secondary-accent-colour: 255, 83, 187;
+  --background-colour: 39, 43, 82;
+  --text-colour: 215, 218, 255;
+  --accent-colour: 163, 255, 166;
+  --secondary-accent-colour: 255, 103, 77;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background-colour: 247, 232, 209;
-    --text-colour: 43, 48, 59;
-    --accent-colour: 50, 71, 255;
-    --secondary-accent-colour: 255, 83, 187;
+    --background-colour: 202, 206, 251;
+    --text-colour: 39, 43, 82;
+    --accent-colour: 43, 85, 255;
+    --secondary-accent-colour: 255, 103, 77;
   }
 }
