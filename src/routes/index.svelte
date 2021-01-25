@@ -27,3 +27,93 @@
   or
   <a href="mailto:hello@erbridge.co.uk">email me</a>.
 </p>
+
+<aside>
+  <h2>thinking about hiring me?</h2>
+
+  <p>
+    I’m not looking for work and am quite happy where I am, but if you have
+    something that you think will seriously interest me, and would benefit from
+    my skills, feel free to get in touch. I’m comfortable anywhere in the stack.
+  </p>
+
+  <p>
+    Organizations I’ve worked with during my career (and still feel good about):
+  </p>
+  <ul>
+    <li>
+      <a rel="external" href="https://www.citizensadvice.org.uk/"
+        >Citizens Advice</a
+      >
+    </li>
+    <li>
+      <a
+        rel="external"
+        href="https://www.gov.uk/government/organisations/department-for-education"
+        >Department for Education</a
+      >
+    </li>
+    <li><a rel="external" href="https://www.dxw.com/">dxw</a></li>
+    <li>
+      <a rel="external" href="https://hackney.gov.uk/">Hackney Council</a>
+    </li>
+    <li>
+      <a
+        rel="external"
+        href="https://www.gov.uk/government/organisations/homes-england"
+        >Homes England</a
+      >
+    </li>
+    <li>MakieLab</li>
+    <li><a rel="external" href="https://www.mind.org.uk/">Mind</a></li>
+    <li>
+      <a rel="external" href="https://nianticlabs.com/blog/sensibleobject"
+        >Sensible Object</a
+      >
+    </li>
+    <li><a rel="external" href="https://www.unmade.com/">UNMADE</a></li>
+  </ul>
+</aside>
+
+<style>
+  aside > h2 {
+    margin-block-start: revert;
+    margin-top: revert;
+  }
+
+  ul {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 2;
+    list-style: none;
+  }
+
+  li {
+    padding: 0 1em;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 700px) {
+    p {
+      max-width: 60%;
+    }
+
+    aside {
+      text-align: right;
+    }
+
+    aside > p {
+      max-width: 60%;
+      margin-left: auto;
+    }
+
+    ul {
+      max-width: 50%;
+      margin-right: 0;
+    }
+  }
+</style>
