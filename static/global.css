@@ -1,0 +1,15 @@
+:root {
+  --background-colour: 43, 48, 59;
+  --text-colour: 201, 211, 233;
+  --accent-colour: 0, 255, 221;
+  --secondary-accent-colour: 255, 83, 187;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-colour: 247, 232, 209;
+    --text-colour: 43, 48, 59;
+    --accent-colour: 50, 71, 255;
+    --secondary-accent-colour: 255, 83, 187;
+  }
+}
