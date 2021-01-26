@@ -7,7 +7,11 @@
       title: "The Groaning Worm (Part II)",
       slug: "writing/the-groaning-worm-part-ii",
     },
-  ].sort((a, b) => (a.title > b.title ? 1 : -1));
+    {
+      title: "and so the wheel turns",
+      slug: "writing/and-so-the-wheel-turns",
+    },
+  ].sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 </script>
 
 <Head title="writing" />
