@@ -15,6 +15,10 @@
       title: "under the light of a dying star",
       slug: "writing/under-the-light-of-a-dying-star",
     },
+    {
+      title: "for your safety",
+      slug: "writing/for-your-safety",
+    },
   ].sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 </script>
 
