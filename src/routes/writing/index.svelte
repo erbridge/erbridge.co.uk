@@ -23,6 +23,14 @@
       title: "the tree",
       slug: "writing/the-tree",
     },
+    {
+      title: "face",
+      slug: "writing/face",
+    },
+    {
+      title: "sessions",
+      slug: "writing/sessions",
+    },
   ].sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 </script>
 
