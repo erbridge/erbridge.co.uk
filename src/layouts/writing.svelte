@@ -4,6 +4,7 @@
 
   export let title: string;
   export let description: string;
+  export let opaqueHeader = false;
 
   let innerWidth: number;
   let innerHeight: number;
@@ -13,7 +14,7 @@
 
   let headerOpacity = 1;
 
-  $: if (innerWidth && innerHeight && section) {
+  $: if (!opaqueHeader && innerWidth && innerHeight && section) {
     const sectionTop = section.offsetTop;
 
     headerOpacity = quadIn(
@@ -57,6 +58,11 @@
     max-width: 60%;
     margin-left: auto;
     color: rgba(var(--text-colour), 0.8);
+  }
+
+  section {
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
   @media (min-width: 700px) {

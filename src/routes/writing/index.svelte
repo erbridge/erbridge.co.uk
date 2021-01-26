@@ -1,7 +1,13 @@
 <script lang="ts">
   import { Head } from "@erbridge/website-theme";
 
-  const pages = [{ title: "USER ERROR", slug: "writing/user-error" }];
+  const pages = [
+    { title: "USER ERROR", slug: "writing/user-error" },
+    {
+      title: "The Groaning Worm (Part II)",
+      slug: "writing/the-groaning-worm-part-ii",
+    },
+  ].sort((a, b) => (a.title > b.title ? 1 : -1));
 </script>
 
 <Head title="writing" />
