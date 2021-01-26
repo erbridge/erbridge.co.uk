@@ -3,7 +3,8 @@
   import { quadIn } from "svelte/easing";
 
   export let title: string;
-  export let description: string;
+  export let subtitle: string | null = null;
+  export let description: string | null = null;
   export let opaqueHeader = false;
 
   let innerWidth: number;
@@ -28,7 +29,11 @@
 
 <svelte:window bind:innerWidth bind:innerHeight bind:scrollY />
 
-<Head title={title.toLowerCase()} type="article" {description}>
+<Head
+  title={(subtitle ? `${title}: ${subtitle}` : title).toLowerCase()}
+  type="article"
+  {description}
+>
   <meta property="og:article:author" content="F" />
 </Head>
 
@@ -36,6 +41,10 @@
   <header style="opacity: {headerOpacity};">
     <div>
       <h1>{title}</h1>
+
+      {#if subtitle}
+        <h2>{subtitle}</h2>
+      {/if}
 
       <slot name="description" />
     </div>
