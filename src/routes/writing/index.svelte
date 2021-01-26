@@ -19,6 +19,10 @@
       title: "for your safety",
       slug: "writing/for-your-safety",
     },
+    {
+      title: "the tree",
+      slug: "writing/the-tree",
+    },
   ].sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 </script>
 
