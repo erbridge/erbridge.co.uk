@@ -7,7 +7,6 @@
 
     %sapper.base%
 
-    <link rel="stylesheet" href="global.css" />
     <link
       rel="manifest"
       href="site.webmanifest"
@@ -34,6 +33,24 @@
           (window.plausible.q = window.plausible.q || []).push(arguments);
         };
     </script>
+
+    <style>
+      :root {
+        --background-colour: 39, 43, 82;
+        --text-colour: 215, 218, 255;
+        --accent-colour: 163, 255, 166;
+        --secondary-accent-colour: 255, 103, 77;
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background-colour: 202, 206, 251;
+          --text-colour: 39, 43, 82;
+          --accent-colour: 43, 85, 255;
+          --secondary-accent-colour: 255, 103, 77;
+        }
+      }
+    </style>
 
     <!--
       Sapper generates a <style> tag containing critical CSS for the current
