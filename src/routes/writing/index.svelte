@@ -61,7 +61,7 @@
       extract:
         "Cold skin, warm heart. / On a pedestal, exposed. Seen. / Curves and motion examined",
     },
-  ].sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
+  ].reverse();
 </script>
 
 <Head
