@@ -10,6 +10,7 @@
   }[] = [
     { href: ".", segment: undefined, label: "me" },
     { href: "writing", segment: "writing" },
+    { href: "art", segment: "art" },
   ];
   const externalLink = {
     href: "https://blog.erbridge.co.uk",
