@@ -64,7 +64,17 @@
   ].sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 </script>
 
-<Head title="writing" />
+<Head
+  title="writing"
+  description="Sometimes I write. I’m particularly fond of poetry, but there are some other writing forms here. Some are experiments, others are reflections on emotions or events. Some are very old and probably not very good. Some are new and also not very good."
+/>
+
+<h1>writing</h1>
+
+Sometimes I write. I’m particularly fond of poetry, but there are some other
+writing forms here. Some are experiments, others are reflections on emotions or
+events. Some are very old and probably not very good. Some are new and also not
+very good.
 
 <ul>
   {#each pages as page}
