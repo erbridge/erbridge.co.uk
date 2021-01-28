@@ -8,7 +8,7 @@
     segment: string | undefined;
     label?: string;
   }[] = [
-    { href: ".", segment: undefined, label: "about" },
+    { href: ".", segment: undefined, label: "me" },
     { href: "writing", segment: "writing" },
   ];
   const externalLink = {
