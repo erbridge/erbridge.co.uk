@@ -27,14 +27,16 @@
     <p><small>Please ignore my deadname in the PDF…</small></p>
   </div>
 
-  <object
-    aria-label="The screenplay, REC"
-    role="document"
-    data="assets/rec.pdf"
-    type="application/pdf"
-  />
+  <div class="pdf">
+    <object
+      aria-label="The screenplay, REC"
+      role="document"
+      data="assets/rec.pdf"
+      type="application/pdf"
+    />
 
-  <p><a role="button" href="assets/rec.pdf">Download the PDF</a></p>
+    <p><a role="button" href="assets/rec.pdf">Download the PDF</a></p>
+  </div>
 </Layout>
 
 <style>
@@ -42,9 +44,16 @@
     font-family: var(--monospace-font-family);
   }
 
+  .pdf {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
   object {
     width: 100%;
-    height: 100%;
     min-height: 400px;
+    max-height: 90vh;
+    flex-grow: 1;
   }
 </style>

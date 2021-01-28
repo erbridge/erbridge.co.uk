@@ -46,20 +46,22 @@
     </ul>
   </div>
 
-  <object
-    aria-label="SEED DISPERSAL"
-    role="document"
-    data="https://cdn.rawgit.com/erbridge/seed-dispersal/master/dist/seed-dispersal-0.0.2.pdf"
-    type="application/pdf"
-  />
+  <div class="pdf">
+    <object
+      aria-label="SEED DISPERSAL"
+      role="document"
+      data="https://cdn.rawgit.com/erbridge/seed-dispersal/master/dist/seed-dispersal-0.0.2.pdf"
+      type="application/pdf"
+    />
 
-  <p>
-    <a
-      role="button"
-      href="https://cdn.rawgit.com/erbridge/seed-dispersal/master/dist/seed-dispersal-0.0.2.pdf"
-      >Download the PDF</a
-    >
-  </p>
+    <p>
+      <a
+        role="button"
+        href="https://cdn.rawgit.com/erbridge/seed-dispersal/master/dist/seed-dispersal-0.0.2.pdf"
+        >Download the PDF</a
+      >
+    </p>
+  </div>
 </Layout>
 
 <style>
@@ -76,9 +78,16 @@
     color: rgba(var(--text-colour), 0.8);
   }
 
+  .pdf {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
   object {
     width: 100%;
-    height: 100%;
     min-height: 400px;
+    max-height: 90vh;
+    flex-grow: 1;
   }
 </style>
