@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Head } from "@erbridge/website-theme";
+  import CategoryIndex from "../../components/CategoryIndex.svelte";
 
   const pages = [
     {
@@ -64,65 +64,8 @@
   ].reverse();
 </script>
 
-<Head
+<CategoryIndex
   title="writing"
   description="Sometimes I write. I’m particularly fond of poetry, but there are some other writing forms here. Some are experiments, others are reflections on emotions or events. Some are very old and probably not very good. Some are new and also not very good."
+  {pages}
 />
-
-<h1>writing</h1>
-
-Sometimes I write. I’m particularly fond of poetry, but there are some other
-writing forms here. Some are experiments, others are reflections on emotions or
-events. Some are very old and probably not very good. Some are new and also not
-very good.
-
-<ul>
-  {#each pages as page}
-    <li>
-      <a sapper:prefetch href={page.slug}>
-        <h2>
-          {page.title}
-        </h2>
-
-        {#if page.extract}
-          <p>{page.extract}…</p>
-        {:else if page.summary}
-          <p>{page.summary}</p>
-        {/if}
-      </a>
-    </li>
-  {/each}
-</ul>
-
-<style>
-  ul {
-    padding-left: 0;
-    list-style: none;
-  }
-
-  li h2 {
-    font-size: 1.4em;
-    margin-top: 0;
-    margin-bottom: 0.2em;
-  }
-
-  li p {
-    max-width: 30em;
-    margin: 0;
-    color: rgba(var(--text-colour), 0.8);
-  }
-
-  li a {
-    display: block;
-    border-left: 2px double rgba(var(--text-colour), 0.4);
-    padding: 0.5em 0 0.5em 1em;
-    text-decoration: none;
-  }
-
-  li a:active,
-  li a:focus,
-  li a:focus-within,
-  li a:hover {
-    border-left-color: rgb(var(--accent-colour));
-  }
-</style>
