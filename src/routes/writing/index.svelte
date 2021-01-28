@@ -12,6 +12,10 @@
       slug: "writing/and-so-the-wheel-turns",
     },
     {
+      title: "REC",
+      slug: "writing/rec",
+    },
+    {
       title: "under the light of a dying star",
       slug: "writing/under-the-light-of-a-dying-star",
     },
