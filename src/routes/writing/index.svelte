@@ -55,6 +55,12 @@
       extract:
         "Thoughts and feelings, / Overwhelming. passions and / Truths. multiple and deafening",
     },
+    {
+      title: "dancers",
+      slug: "writing/dancers",
+      extract:
+        "Cold skin, warm heart. / On a pedestal, exposed. Seen. / Curves and motion examined",
+    },
   ].sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 </script>
 
