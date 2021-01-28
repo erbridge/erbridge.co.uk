@@ -39,7 +39,7 @@
 
   <p>
     I’m not looking for work and am quite happy where I am, but if you have
-    something that you think will seriously interest me, and would benefit from
+    something that you think will seriously interest me and would benefit from
     my skills, feel free to get in touch. I’m comfortable anywhere in the stack.
   </p>
 
