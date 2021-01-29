@@ -3,7 +3,12 @@
 
   const pages = [
     {
-      title: "seed dispersal",
+      title: "@BotCommentator",
+      slug: "art/botcommentator",
+      summary: "A commentator on Twitter bot games.",
+    },
+    {
+      title: "SEED DISPERSAL",
       slug: "art/seed-dispersal",
       summary: "A walk through Project Gutenberg, one paragraph at a time.",
     },

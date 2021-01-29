@@ -94,6 +94,10 @@
       will-change: transform;
     }
 
+    header h1 {
+      hyphens: manual;
+    }
+
     header :global(p) {
       max-width: 80%;
     }
