@@ -22,6 +22,11 @@
       slug: "art/life-maker",
       summary: "Play Conway’s Game of Life in Github’s contributions graph.",
     },
+    {
+      title: "@wikipaedian",
+      slug: "art/wikipaedian",
+      summary: "I sail, node to node, across the seas of Wikipedia’s graph.",
+    },
   ].reverse();
 </script>
 
