@@ -12,6 +12,11 @@
       slug: "art/seed-dispersal",
       summary: "A walk through Project Gutenberg, one paragraph at a time.",
     },
+    {
+      title: "@elbownoises",
+      slug: "art/elbownoises",
+      summary: "A noisy Twitter bot.",
+    },
   ].reverse();
 </script>
 
