@@ -27,6 +27,11 @@
       slug: "art/wikipaedian",
       summary: "I sail, node to node, across the seas of Wikipedia’s graph.",
     },
+    {
+      title: "WordScape",
+      slug: "art/wordscape",
+      summary: "A screensaver-like of crossing words.",
+    },
   ].reverse();
 </script>
 
