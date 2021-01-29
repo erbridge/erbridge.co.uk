@@ -17,6 +17,11 @@
       slug: "art/elbownoises",
       summary: "A noisy Twitter bot.",
     },
+    {
+      title: "life maker",
+      slug: "art/life-maker",
+      summary: "Play Conway’s Game of Life in Github’s contributions graph.",
+    },
   ].reverse();
 </script>
 
