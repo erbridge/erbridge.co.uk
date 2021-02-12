@@ -1,4 +1,5 @@
 <script lang="ts">
+  import forestWalk from "images/art/forest-walk.jpg";
   import CategoryIndex from "../../components/CategoryIndex.svelte";
 
   const pages = [
@@ -31,6 +32,12 @@
       title: "WordScape",
       slug: "art/wordscape",
       summary: "A screensaver-like of crossing words.",
+    },
+    {
+      title: "Forest Walk",
+      slug: "art/forest-walk",
+      summary: "Walk through an endless forest.",
+      background: forestWalk,
     },
   ].reverse();
 </script>

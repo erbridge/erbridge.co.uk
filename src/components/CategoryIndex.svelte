@@ -8,6 +8,7 @@
     slug: string;
     extract?: string;
     summary?: string;
+    background?: string;
   }[];
 </script>
 
@@ -23,6 +24,12 @@
   {#each pages as page}
     <li>
       <a sapper:prefetch href={page.slug}>
+        {#if page.background}
+          <div>
+            <img role="presentation" src={page.background} alt="" />
+          </div>
+        {/if}
+
         <h2>
           {page.title}
         </h2>
@@ -41,6 +48,10 @@
   ul {
     padding-left: 0;
     list-style: none;
+  }
+
+  li {
+    position: relative;
   }
 
   li h2 {
@@ -67,5 +78,23 @@
   li a:focus-within,
   li a:hover {
     border-left-color: rgb(var(--accent-colour));
+  }
+
+  li div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+    overflow: hidden;
+  }
+
+  li div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 </style>
