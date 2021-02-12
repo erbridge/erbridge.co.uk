@@ -1,5 +1,6 @@
 <script lang="ts">
   import forestWalk from "images/art/forest-walk.jpg";
+  import memoryLeak from "images/art/memory-leak.jpg";
   import wordscape from "images/art/wordscape.jpg";
   import CategoryIndex from "../../components/CategoryIndex.svelte";
 
@@ -34,6 +35,12 @@
       slug: "art/wordscape",
       summary: "A screensaver-like of crossing words.",
       background: wordscape,
+    },
+    {
+      title: "Memory Leak",
+      slug: "art/memory-leak",
+      summary: "A bad joke.",
+      background: memoryLeak,
     },
     {
       title: "Forest Walk",
