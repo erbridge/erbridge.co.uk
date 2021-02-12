@@ -64,10 +64,12 @@ you never know what could be found.</pre>
   .description-background-image,
   .main-background-image {
     width: 100%;
+    max-height: 80vh;
     position: absolute;
     left: 0;
     z-index: -1;
     opacity: 0.1;
+    overflow: hidden;
   }
 
   .description-background-image img,

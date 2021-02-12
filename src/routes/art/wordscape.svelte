@@ -39,10 +39,12 @@
 
   .main-background-image {
     width: 100%;
+    max-height: 80vh;
     position: absolute;
     left: 0;
     z-index: -1;
     opacity: 0.1;
+    overflow: hidden;
   }
 
   .main-background-image img {
