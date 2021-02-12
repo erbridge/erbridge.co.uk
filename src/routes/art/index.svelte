@@ -1,5 +1,6 @@
 <script lang="ts">
   import forestWalk from "images/art/forest-walk.jpg";
+  import wordscape from "images/art/wordscape.jpg";
   import CategoryIndex from "../../components/CategoryIndex.svelte";
 
   const pages = [
@@ -32,6 +33,7 @@
       title: "WordScape",
       slug: "art/wordscape",
       summary: "A screensaver-like of crossing words.",
+      background: wordscape,
     },
     {
       title: "Forest Walk",
