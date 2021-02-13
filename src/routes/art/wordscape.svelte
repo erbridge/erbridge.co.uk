@@ -21,11 +21,11 @@
     </p>
   </div>
 
-  <PageBackgroundImage src={wordscape} type="main" />
-
   <p>
     Download it <a rel="external" href="https://erbridge.itch.io/wordscape"
       >here</a
     >.
   </p>
+
+  <PageBackgroundImage src={wordscape} />
 </Layout>

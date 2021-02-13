@@ -6,8 +6,6 @@
 
 <Layout title="Forest Walk" description="Walk through an endless forest.">
   <div slot="description">
-    <PageBackgroundImage src={forestWalk} type="description" />
-
     <p>A slow game made by:</p>
     <ul>
       <li>
@@ -27,8 +25,6 @@
     </p>
   </div>
 
-  <PageBackgroundImage src={forestWalk} type="main" />
-
   <pre>walk through an endless forest,
 taking in the sights and sounds.
 stop, think, look around.
@@ -39,6 +35,8 @@ you never know what could be found.</pre>
       >here</a
     >.
   </p>
+
+  <PageBackgroundImage src={forestWalk} />
 </Layout>
 
 <style>

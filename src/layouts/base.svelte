@@ -56,6 +56,10 @@
 </article>
 
 <style>
+  article {
+    position: relative;
+  }
+
   header {
     max-width: 30rem;
     margin-left: auto;

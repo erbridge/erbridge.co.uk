@@ -6,8 +6,6 @@
 
 <Layout title="Memory Leak" description="A bad joke.">
   <div slot="description">
-    <PageBackgroundImage src={memoryLeak} type="description" />
-
     <p>A “game” made for Nordic Game Jam 2016. The theme was “Leak!”</p>
 
     <p>
@@ -18,8 +16,6 @@
     </p>
   </div>
 
-  <PageBackgroundImage src={memoryLeak} type="main" />
-
   <p>Stop the memory from leaking by clicking on the escaping memory chips.</p>
 
   <p>I think that's right...</p>
@@ -29,4 +25,6 @@
       >here</a
     >.
   </p>
+
+  <PageBackgroundImage src={memoryLeak} />
 </Layout>
