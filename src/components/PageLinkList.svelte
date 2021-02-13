@@ -85,6 +85,14 @@
     z-index: -1;
     opacity: 0.1;
     overflow: hidden;
+    transition: opacity var(--transition-properties);
+  }
+
+  li a:active div,
+  li a:focus div,
+  li a:focus-within div,
+  li a:hover div {
+    opacity: 0.15;
   }
 
   li div img {
