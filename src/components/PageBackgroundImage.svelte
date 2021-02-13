@@ -9,13 +9,13 @@
 
 <style>
   .container {
-    width: 100%;
-    max-height: 80vh;
-    position: absolute;
+    width: 100vw;
+    max-height: 100vh;
+    position: fixed;
     left: 0;
-    top: 0;
+    bottom: 0;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.2;
     overflow: hidden;
   }
 
@@ -29,6 +29,10 @@
     position: absolute;
     bottom: 0;
     top: 0;
-    box-shadow: 0 0 15vw 15vw rgb(var(--background-colour)) inset;
+    background: linear-gradient(
+      to bottom,
+      rgb(var(--background-colour)) 0%,
+      transparent 100%
+    );
   }
 </style>
