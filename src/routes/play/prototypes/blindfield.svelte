@@ -36,7 +36,7 @@
       <li>
         <a rel="external" href="https://twitter.com/dasmalle">Malena Klaus</a>
       </li>
-      <li>erbridge</li>
+      <li>me</li>
     </ul>
 
     <p>

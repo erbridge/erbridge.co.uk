@@ -14,7 +14,7 @@
       <li>
         <a rel="external" href="https://twitter.com/Maibbit">Maike Vierkant</a> (illustration)
       </li>
-      <li>erbridge (everything else)</li>
+      <li>me (everything else)</li>
     </ul>
 
     <p>
