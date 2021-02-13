@@ -2,6 +2,7 @@
   import { Head } from "@erbridge/website-theme";
   import beastsOfBalance from "images/play/beasts-of-balance.jpg";
   import blindfield from "images/play/blindfield.jpg";
+  import elucidate from "images/play/elucidate.jpg";
   import whenInRome from "images/play/when-in-rome.jpg";
   import PageLinkList from "../../components/PageLinkList.svelte";
 
@@ -32,6 +33,12 @@
       slug: "play/prototypes/blindfield",
       summary: "Search for treasure together in a minefield you can’t see.",
       background: blindfield,
+    },
+    {
+      title: "elucidate",
+      slug: "play/prototypes/elucidate",
+      summary: "Learn to communicate with a dream entity.",
+      background: elucidate,
     },
   ].reverse();
 
