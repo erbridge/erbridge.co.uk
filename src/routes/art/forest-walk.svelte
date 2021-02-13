@@ -1,14 +1,12 @@
 <script>
   import forestWalk from "images/art/forest-walk.jpg";
+  import PageBackgroundImage from "../../components/PageBackgroundImage.svelte";
   import Layout from "../../layouts/art.svelte";
 </script>
 
 <Layout title="Forest Walk" description="Walk through an endless forest.">
   <div slot="description">
-    <div class="description-background-image">
-      <img role="presentation" src={forestWalk} alt="" />
-      <div />
-    </div>
+    <PageBackgroundImage src={forestWalk} type="description" />
 
     <p>A slow game made by:</p>
     <ul>
@@ -29,10 +27,7 @@
     </p>
   </div>
 
-  <div class="main-background-image">
-    <img role="presentation" src={forestWalk} alt="" />
-    <div />
-  </div>
+  <PageBackgroundImage src={forestWalk} type="main" />
 
   <pre>walk through an endless forest,
 taking in the sights and sounds.
@@ -53,50 +48,7 @@ you never know what could be found.</pre>
     color: rgba(var(--text-colour), 0.8);
   }
 
-  .main-background-image {
-    display: none;
-  }
-
-  .description-background-image {
-    margin-top: -4em;
-  }
-
-  .description-background-image,
-  .main-background-image {
-    width: 100%;
-    max-height: 80vh;
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    opacity: 0.1;
-    overflow: hidden;
-  }
-
-  .description-background-image img,
-  .main-background-image img {
-    width: 100%;
-  }
-
-  .description-background-image div,
-  .main-background-image div {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    box-shadow: 0 0 15vw 15vw rgb(var(--background-colour)) inset;
-  }
-
   pre {
     font-family: var(--body-font-family);
-  }
-
-  @media (min-width: 700px) {
-    .description-background-image {
-      display: none;
-    }
-
-    .main-background-image {
-      display: block;
-    }
   }
 </style>
