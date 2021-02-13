@@ -19,6 +19,11 @@
       summary: "The Amazon Alexa-enabled travel trivia social board game.",
       background: whenInRome,
     },
+    {
+      title: "Word Mine",
+      slug: "games/sensible-object/word-mine",
+      summary: "A word game played on Amazon Alexa.",
+    },
   ].reverse();
 
   const prototypePages = [
