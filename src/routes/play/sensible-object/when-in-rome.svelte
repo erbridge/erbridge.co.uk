@@ -1,7 +1,7 @@
 <script>
-  import whenInRome from "images/games/when-in-rome.jpg";
+  import whenInRome from "images/play/when-in-rome.jpg";
   import PageBackgroundImage from "../../../components/PageBackgroundImage.svelte";
-  import Layout from "../../../layouts/games.svelte";
+  import Layout from "../../../layouts/play.svelte";
 </script>
 
 <Layout

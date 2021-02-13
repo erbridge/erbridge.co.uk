@@ -1,7 +1,7 @@
 <script>
-  import beastsOfBalance from "images/games/beasts-of-balance.jpg";
+  import beastsOfBalance from "images/play/beasts-of-balance.jpg";
   import PageBackgroundImage from "../../../components/PageBackgroundImage.svelte";
-  import Layout from "../../../layouts/games.svelte";
+  import Layout from "../../../layouts/play.svelte";
 </script>
 
 <Layout

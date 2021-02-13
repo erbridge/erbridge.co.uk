@@ -1,27 +1,27 @@
 <script lang="ts">
   import { Head } from "@erbridge/website-theme";
-  import beastsOfBalance from "images/games/beasts-of-balance.jpg";
-  import blindfield from "images/games/blindfield.jpg";
-  import whenInRome from "images/games/when-in-rome.jpg";
+  import beastsOfBalance from "images/play/beasts-of-balance.jpg";
+  import blindfield from "images/play/blindfield.jpg";
+  import whenInRome from "images/play/when-in-rome.jpg";
   import PageLinkList from "../../components/PageLinkList.svelte";
 
   const releasePages = [
     {
       title: "Beasts of Balance Battles",
-      slug: "games/sensible-object/beasts-of-balance-battles",
+      slug: "play/sensible-object/beasts-of-balance-battles",
       summary:
         "A competitive expansion to the digital-tabletop-stacking-meets-strategy game.",
       background: beastsOfBalance,
     },
     {
       title: "When in Rome",
-      slug: "games/sensible-object/when-in-rome",
+      slug: "play/sensible-object/when-in-rome",
       summary: "The Amazon Alexa-enabled travel trivia social board game.",
       background: whenInRome,
     },
     {
       title: "Word Mine",
-      slug: "games/sensible-object/word-mine",
+      slug: "play/sensible-object/word-mine",
       summary: "A word game played on Amazon Alexa.",
     },
   ].reverse();
@@ -29,7 +29,7 @@
   const prototypePages = [
     {
       title: "Blindfield",
-      slug: "games/prototypes/blindfield",
+      slug: "play/prototypes/blindfield",
       summary: "Search for treasure together in a minefield you can’t see.",
       background: blindfield,
     },
@@ -38,22 +38,22 @@
   const unreleasedPages = [
     {
       title: "Voice Engine",
-      slug: "games/sensible-object/voice-engine",
+      slug: "play/sensible-object/voice-engine",
       summary: "A toolkit for building voice controlled stateful systems.",
     },
   ].reverse();
 </script>
 
 <Head
-  title="games"
-  description="I was a game developer in a past life. Here’s the back catalogue of everything I ever had a hand in creating."
+  title="play"
+  description="I was a game developer in a past life. Here’s the back catalogue of the things I had a hand in creating."
 />
 
-<h1>games</h1>
+<h1>play</h1>
 
 <p>
-  I was a game developer in a past life. Here’s the back catalogue of everything
-  I ever had a hand in creating.
+  I was a game developer in a past life. Here’s the back catalogue of the things
+  I had a hand in creating.
 </p>
 
 <h2>releases</h2>

@@ -9,7 +9,7 @@
     label?: string;
   }[] = [
     { href: ".", segment: undefined, label: "me" },
-    { href: "games", segment: "games" },
+    { href: "play", segment: "play" },
     { href: "writing", segment: "writing" },
     { href: "art", segment: "art" },
   ];

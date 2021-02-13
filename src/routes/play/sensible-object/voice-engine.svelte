@@ -1,5 +1,5 @@
 <script>
-  import Layout from "../../../layouts/games.svelte";
+  import Layout from "../../../layouts/play.svelte";
 </script>
 
 <Layout

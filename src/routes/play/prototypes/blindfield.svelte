@@ -1,7 +1,7 @@
 <script>
-  import blindfield from "images/games/blindfield.jpg";
+  import blindfield from "images/play/blindfield.jpg";
   import PageBackgroundImage from "../../../components/PageBackgroundImage.svelte";
-  import Layout from "../../../layouts/games.svelte";
+  import Layout from "../../../layouts/play.svelte";
 </script>
 
 <Layout
