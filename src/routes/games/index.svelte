@@ -2,6 +2,7 @@
   import { Head } from "@erbridge/website-theme";
   import beastsOfBalance from "images/games/beasts-of-balance.jpg";
   import blindfield from "images/games/blindfield.jpg";
+  import whenInRome from "images/games/when-in-rome.jpg";
   import PageLinkList from "../../components/PageLinkList.svelte";
 
   const releasePages = [
@@ -11,6 +12,12 @@
       summary:
         "A competitive expansion to the digital-tabletop-stacking-meets-strategy game.",
       background: beastsOfBalance,
+    },
+    {
+      title: "When in Rome",
+      slug: "games/sensible-object/when-in-rome",
+      summary: "The Amazon Alexa-enabled travel trivia social board game.",
+      background: whenInRome,
     },
   ].reverse();
 
