@@ -19,6 +19,26 @@
       >.
     </p>
 
+    <p>Made by:</p>
+    <ul>
+      <li>
+        <a rel="external" href="https://twitter.com/aaronvark">Aaron Oostdijk</a
+        >
+      </li>
+      <li>
+        <a rel="external" href="https://twitter.com/WillR1ker">Will McMain</a>
+      </li>
+      <li>
+        <a rel="external" href="https://twitter.com/fauxvaldemar"
+          >Valdemar Andreasen</a
+        >
+      </li>
+      <li>
+        <a rel="external" href="https://twitter.com/dasmalle">Malena Klaus</a>
+      </li>
+      <li>erbridge</li>
+    </ul>
+
     <p>
       The source is available <a
         rel="external"
@@ -67,5 +87,11 @@
   [slot="description"] > :first-child {
     margin-top: -1em;
     font-family: var(--heading-font-family);
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    color: rgba(var(--text-colour), 0.8);
   }
 </style>
