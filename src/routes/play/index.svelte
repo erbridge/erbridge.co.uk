@@ -3,6 +3,7 @@
   import beastsOfBalance from "images/play/beasts-of-balance.jpg";
   import blindfield from "images/play/blindfield.jpg";
   import elucidate from "images/play/elucidate.jpg";
+  import fatalAttraction from "images/play/fatal-attraction.jpg";
   import whenInRome from "images/play/when-in-rome.jpg";
   import PageLinkList from "../../components/PageLinkList.svelte";
 
@@ -28,6 +29,12 @@
   ].reverse();
 
   const prototypePages = [
+    {
+      title: "Fatal Attraction",
+      slug: "play/prototypes/fatal-attraction",
+      summary: "Change gravity to avoid crashing.",
+      background: fatalAttraction,
+    },
     {
       title: "Blindfield",
       slug: "play/prototypes/blindfield",
