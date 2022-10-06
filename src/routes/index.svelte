@@ -14,10 +14,11 @@
 </p>
 
 <p>
-  I work at <a rel="external" href="https://www.dxw.com/">dxw</a>, making public
-  services better. I advocate for open development, inclusive culture, and
-  better, fairer processes. I used to make games and before that I tried (and
-  failed) to understand the fundamental structure of spacetime.
+  I’m Head of Development at <a rel="external" href="https://www.dxw.com/"
+    >dxw</a
+  >, making public services better. I advocate for open development, inclusive
+  culture, and better, fairer processes. I used to make games and before that I
+  tried (and failed) to understand the fundamental structure of spacetime.
 </p>
 
 <p>This is a portfolio of sorts of things I’ve worked on over the years.</p>

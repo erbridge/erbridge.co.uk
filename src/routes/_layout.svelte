@@ -9,9 +9,12 @@
     label?: string;
   }[] = [
     { href: ".", segment: undefined, label: "me" },
+    { href: "services", segment: "services" },
     { href: "play", segment: "play" },
+    { href: "slack", segment: "slack" },
     { href: "writing", segment: "writing" },
     { href: "art", segment: "art" },
+    { href: "other", segment: "other" },
   ];
   const externalLink = {
     href: "https://blog.erbridge.co.uk",
