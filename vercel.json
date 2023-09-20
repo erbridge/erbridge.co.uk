@@ -26,5 +26,19 @@
 				}
 			]
 		}
+	],
+	"redirects": [
+		{
+			"source": "/blog",
+			"destination": "https://blog.erbridge.co.uk/"
+		},
+		{
+			"source": "/blog(/201[4-6]/[0-1]\\d/[0-3]\\d)*/:path*",
+			"destination": "https://blog.erbridge.co.uk/archive/:path*"
+		},
+		{
+			"source": "/fiction/:path*",
+			"destination": "https://library.erbridge.co.uk/read/:path*"
+		}
 	]
 }
