@@ -1,0 +1,6 @@
+{
+	"useTabs": true,
+	"proseWrap": "always",
+	"pluginSearchDirs": ["."],
+	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
+}

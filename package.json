@@ -1,0 +1,34 @@
+{
+	"name": "erbridge.co.uk",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@erbridge/website-theme": "github:erbridge/website-theme",
+		"@sveltejs/adapter-static": "^2.0.2",
+		"@sveltejs/kit": "^1.0.1",
+		"@typescript-eslint/eslint-plugin": "^6.4.0",
+		"@typescript-eslint/parser": "^6.4.0",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.47.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"normalize.css": "^8.0.1",
+		"prettier": "^2.8.1",
+		"prettier-plugin-svelte": "^2.9.0",
+		"svelte": "^3.53.1",
+		"svelte-check": "^3.0.1",
+		"svelte-preprocess": "^5.0.4",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.4",
+		"vite": "^4.0.3"
+	},
+	"type": "module"
+}
