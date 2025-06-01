@@ -28,7 +28,7 @@
 		margin-bottom: 0;
 		line-height: 1.2;
 		font-family: var(--heading-font-family);
-		font-weight: 600;
+		font-weight: var(--heading-font-weight);
 		font-size: 1em;
 		color: rgb(var(--accent-colour));
 	}
@@ -49,7 +49,7 @@
 		display: flex;
 		align-items: center;
 		font-family: var(--heading-font-family);
-		font-weight: 600;
+		font-weight: var(--heading-font-weight);
 		font-size: 1.2em;
 	}
 
